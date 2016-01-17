@@ -1,0 +1,10 @@
+language: ruby
+script: bundle exec middleman build
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "QHW/7ws94WWxmqTK+jcwMg0OchUM3LG5Gjqe/nDp8kevAXpRcE8c8NP1Y/9XR9K1oYtcXFliKPWiffOtIwHYTYpzFDUYso/NUs6oQ6PLeiFYZxi2dFOh/711pOjiLbX79ldN7deRxZ2KxbEGOVlKVqfi0JyktHX20rr2odZ5t2GjpYCuDKVY41SufGuVONvqGpOVKRML7unHXkEIs7kCNKWwlp9oJUFq33qWJOsdIWNL3hFQuP4CAWU/YfO99NTHOa29uVY6Ukr9imM3FESuPcud1PbjcMT52M+3jls7J5Ee//bBscJnaH6uWX9L/3YSmMkv8hroSjk1f7qUFReeGxkpeTb1dwqkcMloFBK7kSHv3X8xwfD+5ZFB/Ie0x+AWE04RiFTLOPunCf3J3s7Kja7KGQ5F2qMz3eeRxzyDTto9qCRrdokdyo4KLcbjVkovzEH8ZxrYcFLZEUWI+Tf5kuHGBVPW1XIwfwwLq5fkvRNHLW6hrV0gXLwRsmMeLNPW3lJu5UzTtMOI5NnTWB4+ppJ4ehRKu8FjExi7Tzks33nDNe/WiuFk8CfQB8zv7yGrWQMnBbsN20i2zyqKBbf0UJ6XYt4zofvJVRV/ZAzGHrooZ7VKuV2nwCOE76vYIt25XPawJeaxqfynIrzdYRRtNrw1i3SPdnCkSdjb+bAtUlQ="
+  app: rails-guides-v2
+  on:
+    branch: master
