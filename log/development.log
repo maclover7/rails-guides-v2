@@ -1,0 +1,93 @@
+# Logfile created on 2016-01-17 16:35:05 -0500 by logger.rb/53141
+== Activating: file_watcher
+== Activating: front_matter
+== Activating: data
+== Activating: compass
+== Activating: sitemap_ignore
+== Activating: sitemap_ondisk
+== Activating: sitemap_import
+== Activating: sitemap_endpoint
+== Activating: sitemap_proxies
+== Activating: sitemap_redirects
+== Activating: sitemap_move_files
+== Activating: show_exceptions
+== Activating: external_helpers
+== Activating: erb_renderer
+== Activating: coffee_renderer
+== Activating: haml_renderer
+== Activating: sass_renderer
+== Activating: markdown_renderer
+== Failed Activation `liquid_renderer` : cannot load such file -- liquid
+== Failed Activation `slim_renderer` : cannot load such file -- slim
+== Failed Activation `less_renderer` : cannot load such file -- less
+== Failed Activation `stylus_renderer` : cannot load such file -- stylus
+== Activating: default_helpers
+== Activating: lorem
+== Activating: routing
+== Activating: collections
+== Rebuilding resource list
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Reading: Local config: config.rb
+== Activating: livereload
+Loaded extensions:
+== Extension: file_watcher
+== Extension: front_matter
+== Extension: data
+== Extension: compass
+== Extension: sitemap_ignore
+== Extension: sitemap_ondisk
+== Extension: sitemap_import
+== Extension: sitemap_endpoint
+== Extension: sitemap_proxies
+== Extension: sitemap_redirects
+== Extension: sitemap_move_files
+== Extension: show_exceptions
+== Extension: external_helpers
+== Extension: erb_renderer
+== Extension: coffee_renderer
+== Extension: haml_renderer
+== Extension: sass_renderer
+== Extension: markdown_renderer
+== Extension: default_helpers
+== Extension: lorem
+== Extension: routing
+== Extension: collections
+== Extension: livereload
+== Change (#<Set: {:source}>): images/middleman-logo.svg
+== Change (#<Set: {:source}>): index.html.erb
+== Change (#<Set: {:source}>): javascripts/all.js
+== Change (#<Set: {:source}>): layouts/layout.erb
+== Change (#<Set: {:source}>): stylesheets/_normalize.scss
+== Change (#<Set: {:source}>): stylesheets/site.css.scss
+== Rebuilding resource list
+== Running manipulator: sitemap_ondisk
+== Running manipulator: sitemap_endpoint
+== Running manipulator: sitemap_proxies
+== Running manipulator: sitemap_redirects
+== Running manipulator: sitemap_import
+== Running manipulator: routing
+== Running manipulator: front_matter
+== Running manipulator: sitemap_move_files
+== Running manipulator: collections
+== LiveReload accepting connections from ws://192.168.1.11:35729
+== LiveReload browser connected
+LiveReload Browser URL: {"command":"hello","protocols":["http://livereload.com/protocols/official-6","http://livereload.com/protocols/official-7"],"ver":"2.0.8"}
+== Request: /
+== Finishing Request: index.html (0.01s)
+== Request: /javascripts/all.js
+== Finishing Request: javascripts/all.js (0.0s)
+== Request: /stylesheets/site.css
+== Finishing Request: stylesheets/site.css (0.06s)
+== Request: /images/middleman-logo.svg
+== Finishing Request: images/middleman-logo.svg (0.0s)
+== LiveReload browser connected
+LiveReload Browser URL: {"command":"hello","protocols":["http://livereload.com/protocols/official-6","http://livereload.com/protocols/official-7"],"ver":"2.0.8"}
+== Request: /favicon.ico
+== Request: /favicon.ico
+== LiveReload browser disconnected
+== LiveReload browser disconnected
